@@ -205,18 +205,18 @@ const unsigned int cod3 = 6; //Asignacino del pin de salida X3
 const unsigned int E0 = 7;	//Asignacino del pin de Entrada E0
 const unsigned int E1 = 8;	//Asignacino del pin de Entrada E1
 const unsigned int E2 = 9;	//Asignacino del pin de Entrada E2
-const unsigned int E3 = 10; //Asignacino del pin de Entrada E3
-const unsigned int E4 = 11; //Asignacino del pin de Entrada E4
-const unsigned int E5 = 12; //Asignacino del pin de Entrada E5
+const unsigned int E3 = 10; 	//Asignacino del pin de Entrada E3
+const unsigned int E4 = 11; 	//Asignacino del pin de Entrada E4
+const unsigned int E5 = 12; 	//Asignacino del pin de Entrada E5
 
 const unsigned int ESwitch[HighSize] = {E0, E1, E2, E3, E4, E5}; // Array de lectura de Fila
 
 const unsigned char KeyboardKeys[HighSize][WidthSize] = {{KEY_ESC, KEY_F1, KEY_F2, KEY_F3, KEY_F4, KEY_F5, KEY_F6, KEY_F7, KEY_F8, KEY_F9, KEY_F10, KEY_F11, KEY_F12, KEY_SYSRQ, KEY_SCROLLLOCK, KEY_PAUSE},
-														 {KEY_GRAVE, KEY_1, KEY_2, KEY_3, KEY_4, KEY_5, KEY_6, KEY_7, KEY_8, KEY_9, KEY_0, KEY_MINUS, KEY_EQUAL, KEY_BACKSPACE, KEY_HOME, KEY_PAGEUP},
-														 {KEY_TAB, KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P, KEY_LEFTBRACE, KEY_RIGHTBRACE, KEY_ENTER, KEY_END, KEY_PAGEDOWN},
-														 {KEY_CAPSLOCK, KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON, KEY_APOSTROPHE, KEY_BACKSLASH, KEY_INSERT, KEY_NONE, KEY_NONE},
-														 {KEY_LEFTSHIFT, KEY_BACKSLASH, KEY_Z, KEY_X, KEY_C, KEY_V, KEY_B, KEY_N, KEY_M, KEY_COMMA, KEY_DOT, KEY_SLASH, KEY_RIGHTSHIFT, KEY_DELETE, KEY_UP, KEY_NONE},
-														 {KEY_LEFTCTRL, KEY_LEFTMETA, KEY_LEFTALT, KEY_NONE, KEY_NONE, KEY_NONE, KEY_SPACE, KEY_NONE, KEY_NONE, KEY_NONE, KEY_RIGHTALT, KEY_NONE, KEY_PROPS, KEY_LEFT, KEY_DOWN, KEY_RIGHT}};
+							 {KEY_GRAVE, KEY_1, KEY_2, KEY_3, KEY_4, KEY_5, KEY_6, KEY_7, KEY_8, KEY_9, KEY_0, KEY_MINUS, KEY_EQUAL, KEY_BACKSPACE, KEY_HOME, KEY_PAGEUP},
+							 {KEY_TAB, KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P, KEY_LEFTBRACE, KEY_RIGHTBRACE, KEY_ENTER, KEY_END, KEY_PAGEDOWN},
+							 {KEY_CAPSLOCK, KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON, KEY_APOSTROPHE, KEY_BACKSLASH, KEY_INSERT, KEY_NONE, KEY_NONE},
+							 {KEY_LEFTSHIFT, KEY_BACKSLASH, KEY_Z, KEY_X, KEY_C, KEY_V, KEY_B, KEY_N, KEY_M, KEY_COMMA, KEY_DOT, KEY_SLASH, KEY_RIGHTSHIFT, KEY_DELETE, KEY_UP, KEY_NONE},
+							 {KEY_LEFTCTRL, KEY_LEFTMETA, KEY_LEFTALT, KEY_NONE, KEY_NONE, KEY_NONE, KEY_SPACE, KEY_NONE, KEY_NONE, KEY_NONE, KEY_RIGHTALT, KEY_NONE, KEY_PROPS, KEY_LEFT, KEY_DOWN, KEY_RIGHT}};
 
 const unsigned int debounceTime = 5;			   //Tiempo Debounce en milisegundos
 bool switchState[HighSize][WidthSize] = {false};   //Estado de la lectura de la fila
@@ -246,6 +246,7 @@ int main()
 	{
 		for (i = 0; i < WidthSize; i++)
 		{
+			//Codigo para El Demultiplexor 4 a 16
 			n = i;
 			while (n!=0)
 			{
