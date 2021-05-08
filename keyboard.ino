@@ -224,6 +224,8 @@ bool oldSwitchState[HighSize][WidthSize] = {false};//Estado Anterior de la Tecla
 unsigned long debounce[HighSize][WidthSize] = {0}; //Tiempo de Bounce de la fila
 int i = 0;
 int k = 0;
+int n;
+String r;
 
 int main()
 {
@@ -244,6 +246,16 @@ int main()
 	{
 		for (i = 0; i < WidthSize; i++)
 		{
+			n = i;
+			while (n!=0)
+			{
+				r=(n%2==0 ?"0":"1")+r; 
+				n/=2;
+			}
+			digitalWrite(cod0,((int)r.charAt(0) - 48));
+			digitalWrite(cod1,((int)r.charAt(1) - 48));
+			digitalWrite(cod2,((int)r.charAt(2) - 48));
+			digitalWrite(cod3,((int)r.charAt(3) - 48));
 			for (k = 0; k < HighSize; k++)
 			{
 				switchState[k][i] = digitalRead(ESwitch[k]);
@@ -261,6 +273,7 @@ int main()
 				}
 			}
 		}
+		r = "";
 	}
 	return 0;
 }
