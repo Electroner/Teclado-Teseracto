@@ -127,28 +127,28 @@ const unsigned int E5 = 9; //Asignacino del pin de Entrada E5
 const unsigned int ESwitch[AlturaTeclado] = {E0, E1, E2, E3, E4, E5}; // Array de lectura de Fila
 
 const bool nums0_15[numsCantidad][numsAncho] = {{0, 0, 0, 0},
-                                            {0, 0, 0, 1},
-                                            {0, 0, 1, 0},
-                                            {0, 0, 1, 1},
-                                            {0, 1, 0, 0},
-                                            {0, 1, 0, 1},
-                                            {0, 1, 1, 0},
-                                            {0, 1, 1, 1},
-                                            {1, 0, 0, 0},
-                                            {1, 0, 0, 1},
-                                            {1, 0, 1, 0},
-                                            {1, 0, 1, 1},
-                                            {1, 1, 0, 0},
-                                            {1, 1, 0, 1},
-                                            {1, 1, 1, 0},
-                                            {1, 1, 1, 1}};
+                                                {0, 0, 0, 1},
+                                                {0, 0, 1, 0},
+                                                {0, 0, 1, 1},
+                                                {0, 1, 0, 0},
+                                                {0, 1, 0, 1},
+                                                {0, 1, 1, 0},
+                                                {0, 1, 1, 1},
+                                                {1, 0, 0, 0},
+                                                {1, 0, 0, 1},
+                                                {1, 0, 1, 0},
+                                                {1, 0, 1, 1},
+                                                {1, 1, 0, 0},
+                                                {1, 1, 0, 1},
+                                                {1, 1, 1, 0},
+                                                {1, 1, 1, 1}};
 
 const unsigned char TeclasTeclado[AlturaTeclado][AnchuraTeclado] = {{KEY_ESC,KEY_F1,KEY_F2,KEY_F3,KEY_F4,KEY_F5,KEY_F6,KEY_F7,KEY_F8,KEY_F9,KEY_F10,KEY_F11,KEY_F12,KEY_PRINTSCREEN,KEY_BLOQ,KEY_PAUSE},
-                                                         {KEY_ANGULO,KEY_UNO,KEY_DOS,KEY_TRES,KEY_CUATRO,KEY_CINCO,KEY_SEIS,KEY_SIETE,KEY_OCHO,KEY_NUEVE,KEY_CERO,KEY_APOSTROFE,KEY_EXCLAMACION,KEY_BACKSPACE,KEY_HOME,KEY_PAGEUP},
-                                                         {KEY_TAB,KEY_Q,KEY_W,KEY_E,KEY_R,KEY_T,KEY_Y,KEY_U,KEY_I,KEY_O,KEY_P,KEY_ACENTOAGUDO,KEY_SIGNOMAS,KEY_ENTER,KEY_END,KEY_PAGEDOWN},
-                                                         {KEY_CAPSLOCK,KEY_A,KEY_S,KEY_D,KEY_F,KEY_G,KEY_H,KEY_J,KEY_K,KEY_L,KEY_ENIE,KEY_ACENTO,KEY_CEDILLA,KEY_INS,KEY_NONE,KEY_NONE},
-                                                         {KEY_LSHIFT,KEY_MENOSMAYOR,KEY_Z,KEY_X,KEY_C,KEY_V,KEY_B,KEY_N,KEY_M,KEY_COMA,KEY_PUNTO,KEY_MENOS,KEY_RSHIFT,KEY_DEL,KEY_FLECHAARRIBA,KEY_NONE},
-                                                         {KEY_LCONTROL,KEY_WINDOWS,KEY_LALT,KEY_DIVISIONPAD,KEY_PORPAD,KEY_MENOSPAD,KEY_ESPACIO,KEY_SUMAPAD,KEY_RCONTROL,KEY_NUMLOCK,KEY_ALTGR,KEY_NONE,KEY_CONTEXTMENU,KEY_FLECHAIZQUIERDA,KEY_FLECHAABAJO,KEY_FLECHADERECHA}};
+                                                                    {KEY_ANGULO,KEY_UNO,KEY_DOS,KEY_TRES,KEY_CUATRO,KEY_CINCO,KEY_SEIS,KEY_SIETE,KEY_OCHO,KEY_NUEVE,KEY_CERO,KEY_APOSTROFE,KEY_EXCLAMACION,KEY_BACKSPACE,KEY_HOME,KEY_PAGEUP},
+                                                                    {KEY_TAB,KEY_Q,KEY_W,KEY_E,KEY_R,KEY_T,KEY_Y,KEY_U,KEY_I,KEY_O,KEY_P,KEY_ACENTOAGUDO,KEY_SIGNOMAS,KEY_ENTER,KEY_END,KEY_PAGEDOWN},
+                                                                    {KEY_CAPSLOCK,KEY_A,KEY_S,KEY_D,KEY_F,KEY_G,KEY_H,KEY_J,KEY_K,KEY_L,KEY_ENIE,KEY_ACENTO,KEY_CEDILLA,KEY_INS,KEY_NONE,KEY_NONE},
+                                                                    {KEY_LSHIFT,KEY_MENOSMAYOR,KEY_Z,KEY_X,KEY_C,KEY_V,KEY_B,KEY_N,KEY_M,KEY_COMA,KEY_PUNTO,KEY_MENOS,KEY_RSHIFT,KEY_DEL,KEY_FLECHAARRIBA,KEY_NONE},
+                                                                    {KEY_LCONTROL,KEY_WINDOWS,KEY_LALT,KEY_DIVISIONPAD,KEY_PORPAD,KEY_MENOSPAD,KEY_ESPACIO,KEY_SUMAPAD,KEY_RCONTROL,KEY_NUMLOCK,KEY_ALTGR,KEY_NONE,KEY_CONTEXTMENU,KEY_FLECHAIZQUIERDA,KEY_FLECHAABAJO,KEY_FLECHADERECHA}};
 
 const unsigned float TiempoDebounce = 5;                            //Tiempo Debounce en milisegundos
 bool SwitchEstado[AlturaTeclado][AnchuraTeclado] = {false};         //Estado de la lectura de la fila
