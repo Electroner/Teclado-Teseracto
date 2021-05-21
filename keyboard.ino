@@ -190,7 +190,7 @@ void loop()
                 SwitchEstadoAntiguo[k][i] = SwitchEstado[k][i];
                 Keyboard.press(TeclasTeclado[k][i]);
             }
-            else if (!SwitchEstado[i] && SwitchEstadoAntiguo[i] && (millis() - Debounce[k][i]) > TiempoDebounce)
+            else if (!SwitchEstado[k][i] && SwitchEstadoAntiguo[k][i] && (millis() - Debounce[k][i]) > TiempoDebounce)
             {
                 Debounce[k][i] = millis();
                 SwitchEstadoAntiguo[k][i] = SwitchEstado[k][i];
