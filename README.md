@@ -1,4 +1,4 @@
-# TecladoCustom
+# Teclado Personalizado en Español + PCB
 
 Codigo Terminado
 
