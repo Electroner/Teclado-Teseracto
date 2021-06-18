@@ -1,4 +1,4 @@
-# Teclado Personalizado en Español + PCB [![Generic badge](https://img.shields.io/badge/Build-Stable-green.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Version-1.0-green.svg)](https://shields.io/)
+# Teclado Personalizado en Español + PCB [![Generic badge](https://img.shields.io/badge/Version-1.0-green.svg)](https://shields.io/)
 
 Teclado que usa un Arduino Pro Micro como controllador y un decodificador/Demultiplexor CD74HC154 4-a-16 para conseguir una velocidad de respuesta en COM de ~1330Hz. Pruebas realizadas con el codigo actual.
 
