@@ -1,0 +1,278 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFP80P1200X1200X120-44N">
+<wire x1="-4.8" y1="4.8" x2="4.8" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="4.8" y1="4.8" x2="4.8" y2="-4.8" width="0.2032" layer="21"/>
+<wire x1="4.8" y1="-4.8" x2="-4.8" y2="-4.8" width="0.2032" layer="21"/>
+<wire x1="-4.8" y1="-4.8" x2="-4.8" y2="4.8" width="0.2032" layer="21"/>
+<circle x="-4" y="4" radius="0.2827" width="0.254" layer="21"/>
+<text x="-7.04152" y="7.13668" size="1.78091" layer="25">&gt;NAME</text>
+<text x="-7.00282" y="-9.02518" size="1.77999" layer="27">&gt;VALUE</text>
+<rectangle x1="-6.10469" y1="3.80296" x2="-4.95" y2="4.1999" layer="51"/>
+<rectangle x1="-6.10177" y1="3.00082" x2="-4.95" y2="3.4" layer="51"/>
+<rectangle x1="-6.10356" y1="2.20115" x2="-4.95" y2="2.5999" layer="51"/>
+<rectangle x1="-6.10198" y1="1.40043" x2="-4.95" y2="1.8001" layer="51"/>
+<rectangle x1="-6.10916" y1="0.600791" x2="-4.95" y2="1" layer="51"/>
+<rectangle x1="-6.10886" y1="-0.200187" x2="-4.95" y2="0.1999" layer="51"/>
+<rectangle x1="-6.10033" y1="-1.00004" x2="-4.95" y2="-0.5999" layer="51"/>
+<rectangle x1="-6.10245" y1="-1.80079" x2="-4.95" y2="-1.4" layer="51"/>
+<rectangle x1="-6.11016" y1="-2.60419" x2="-4.95" y2="-2.1999" layer="51"/>
+<rectangle x1="-6.11224" y1="-3.40676" x2="-4.95" y2="-3" layer="51"/>
+<rectangle x1="-6.10183" y1="-4.20109" x2="-4.95" y2="-3.8001" layer="51"/>
+<rectangle x1="-4.20156" y1="-6.10251" x2="-3.8001" y2="-4.95" layer="51"/>
+<rectangle x1="-3.40368" y1="-6.10669" x2="-3" y2="-4.95" layer="51"/>
+<rectangle x1="-2.60507" y1="-6.11222" x2="-2.1999" y2="-4.95" layer="51"/>
+<rectangle x1="-1.80082" y1="-6.10253" x2="-1.4" y2="-4.95" layer="51"/>
+<rectangle x1="-1.00157" y1="-6.10966" x2="-0.5999" y2="-4.95" layer="51"/>
+<rectangle x1="-0.200108" y1="-6.10644" x2="0.1999" y2="-4.95" layer="51"/>
+<rectangle x1="0.600768" y1="-6.10893" x2="1" y2="-4.95" layer="51"/>
+<rectangle x1="1.40084" y1="-6.10376" x2="1.8001" y2="-4.95" layer="51"/>
+<rectangle x1="2.20138" y1="-6.10421" x2="2.5999" y2="-4.95" layer="51"/>
+<rectangle x1="3.00283" y1="-6.10586" x2="3.4" y2="-4.95" layer="51"/>
+<rectangle x1="3.80555" y1="-6.10884" x2="4.1999" y2="-4.95" layer="51"/>
+<rectangle x1="4.95937" y1="-4.20785" x2="6.1001" y2="-3.8001" layer="51"/>
+<rectangle x1="4.95099" y1="-3.40068" x2="6.1001" y2="-3" layer="51"/>
+<rectangle x1="4.95444" y1="-2.60223" x2="6.1001" y2="-2.1999" layer="51"/>
+<rectangle x1="4.95591" y1="-1.80225" x2="6.1001" y2="-1.4" layer="51"/>
+<rectangle x1="4.95809" y1="-1.00163" x2="6.1001" y2="-0.5999" layer="51"/>
+<rectangle x1="4.95666" y1="-0.200169" x2="6.1001" y2="0.1999" layer="51"/>
+<rectangle x1="4.95976" y1="0.601083" x2="6.1001" y2="1" layer="51"/>
+<rectangle x1="4.95516" y1="1.40146" x2="6.1001" y2="1.8001" layer="51"/>
+<rectangle x1="4.95799" y1="2.20345" x2="6.1001" y2="2.5999" layer="51"/>
+<rectangle x1="4.95614" y1="3.00372" x2="6.1001" y2="3.4" layer="51"/>
+<rectangle x1="4.95872" y1="3.80679" x2="6.1001" y2="4.1999" layer="51"/>
+<rectangle x1="3.80202" y1="4.95251" x2="4.1999" y2="6.1001" layer="51"/>
+<rectangle x1="3.00181" y1="4.95299" x2="3.4" y2="6.1001" layer="51"/>
+<rectangle x1="2.20039" y1="4.95111" x2="2.5999" y2="6.1001" layer="51"/>
+<rectangle x1="1.40114" y1="4.95403" x2="1.8001" y2="6.1001" layer="51"/>
+<rectangle x1="0.600775" y1="4.95722" x2="1" y2="6.1001" layer="51"/>
+<rectangle x1="-0.200076" y1="4.95436" x2="0.1999" y2="6.1001" layer="51"/>
+<rectangle x1="-1.0019" y1="4.95939" x2="-0.5999" y2="6.1001" layer="51"/>
+<rectangle x1="-1.80221" y1="4.95579" x2="-1.4" y2="6.1001" layer="51"/>
+<rectangle x1="-2.60418" y1="4.95815" x2="-2.1999" y2="6.1001" layer="51"/>
+<rectangle x1="-3.40398" y1="4.95579" x2="-3" y2="6.1001" layer="51"/>
+<rectangle x1="-4.20414" y1="4.955" x2="-3.8001" y2="6.1001" layer="51"/>
+<circle x="-6.2" y="5.05" radius="0.254" width="0" layer="21"/>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.05" layer="39"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.05" layer="39"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.05" layer="39"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.05" layer="39"/>
+<smd name="1" x="-5.9" y="4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="2" x="-5.9" y="3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="3" x="-5.9" y="2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="4" x="-5.9" y="1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="5" x="-5.9" y="0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="6" x="-5.9" y="0" dx="1.5" dy="0.5" layer="1"/>
+<smd name="7" x="-5.9" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="8" x="-5.9" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="9" x="-5.9" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="10" x="-5.9" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="11" x="-5.9" y="-4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="12" x="-4" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="13" x="-3.2" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="14" x="-2.4" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="15" x="-1.6" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="16" x="-0.8" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="17" x="0" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="18" x="0.8" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="19" x="1.6" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="20" x="2.4" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="21" x="3.2" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="22" x="4" y="-5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="23" x="5.9" y="-4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="24" x="5.9" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="25" x="5.9" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="26" x="5.9" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="27" x="5.9" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="28" x="5.9" y="0" dx="1.5" dy="0.5" layer="1"/>
+<smd name="29" x="5.9" y="0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="30" x="5.9" y="1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="31" x="5.9" y="2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="32" x="5.9" y="3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="33" x="5.9" y="4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="34" x="4" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="35" x="3.2" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="36" x="2.4" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="37" x="1.6" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="38" x="0.8" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="39" x="0" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="40" x="-0.8" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="41" x="-1.6" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="42" x="-2.4" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="43" x="-3.2" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+<smd name="44" x="-4" y="5.9" dx="0.5" dy="1.5" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ATMEGA32U4-AU">
+<wire x1="10.16" y1="38.1" x2="10.16" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-38.1" x2="-10.16" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-38.1" x2="-10.16" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="38.1" x2="10.16" y2="38.1" width="0.254" layer="94"/>
+<text x="-10.1752" y="39.4289" size="2.5438" layer="95">&gt;NAME</text>
+<text x="-10.1803" y="-41.9936" size="2.54507" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="15.24" y="35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="UVCC" x="15.24" y="33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="AVCC" x="15.24" y="30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="UGND" x="15.24" y="-33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="UCAP" x="15.24" y="-27.94" length="middle" direction="pas" rot="R180"/>
+<pin name="PB0" x="-15.24" y="12.7" length="middle"/>
+<pin name="PB1" x="-15.24" y="10.16" length="middle"/>
+<pin name="PB2" x="-15.24" y="7.62" length="middle"/>
+<pin name="PB3" x="-15.24" y="5.08" length="middle"/>
+<pin name="PB4" x="-15.24" y="2.54" length="middle"/>
+<pin name="PB5" x="-15.24" y="0" length="middle"/>
+<pin name="PB6" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PB7" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PC6" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="PC7" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="PD0" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PD1" x="-15.24" y="-12.7" length="middle"/>
+<pin name="PD2" x="-15.24" y="-15.24" length="middle"/>
+<pin name="PD3" x="-15.24" y="-17.78" length="middle"/>
+<pin name="PD4" x="-15.24" y="-20.32" length="middle"/>
+<pin name="PD5" x="-15.24" y="-22.86" length="middle"/>
+<pin name="PD6" x="-15.24" y="-25.4" length="middle"/>
+<pin name="PD7" x="-15.24" y="-27.94" length="middle"/>
+<pin name="PE2" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="PE6" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="PF0" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="PF1" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="PF4" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="PF5" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="PF6" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="PF7" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="D-" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="D+" x="15.24" y="-22.86" length="middle" rot="R180"/>
+<pin name="XTAL1" x="-15.24" y="17.78" length="middle" direction="in"/>
+<pin name="!RESET" x="-15.24" y="20.32" length="middle" direction="in"/>
+<pin name="AREF" x="-15.24" y="25.4" length="middle" direction="in"/>
+<pin name="VBUS" x="-15.24" y="27.94" length="middle" direction="in"/>
+<pin name="XTAL2" x="15.24" y="17.78" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATMEGA32U4-AU" prefix="U">
+<description>ATmega Series 16 MHz 32 KB Flash 2.5 KB SRAM 8-Bit Microcontroller - TQFP-44 &lt;a href="https://pricing.snapeda.com/parts/ATMEGA32U4-AU/Microchip/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA32U4-AU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFP80P1200X1200X120-44N">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="13"/>
+<connect gate="G$1" pin="AREF" pad="42"/>
+<connect gate="G$1" pin="AVCC" pad="24 44"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="GND" pad="15 23 35 43"/>
+<connect gate="G$1" pin="PB0" pad="8"/>
+<connect gate="G$1" pin="PB1" pad="9"/>
+<connect gate="G$1" pin="PB2" pad="10"/>
+<connect gate="G$1" pin="PB3" pad="11"/>
+<connect gate="G$1" pin="PB4" pad="28"/>
+<connect gate="G$1" pin="PB5" pad="29"/>
+<connect gate="G$1" pin="PB6" pad="30"/>
+<connect gate="G$1" pin="PB7" pad="12"/>
+<connect gate="G$1" pin="PC6" pad="31"/>
+<connect gate="G$1" pin="PC7" pad="32"/>
+<connect gate="G$1" pin="PD0" pad="18"/>
+<connect gate="G$1" pin="PD1" pad="19"/>
+<connect gate="G$1" pin="PD2" pad="20"/>
+<connect gate="G$1" pin="PD3" pad="21"/>
+<connect gate="G$1" pin="PD4" pad="25"/>
+<connect gate="G$1" pin="PD5" pad="22"/>
+<connect gate="G$1" pin="PD6" pad="26"/>
+<connect gate="G$1" pin="PD7" pad="27"/>
+<connect gate="G$1" pin="PE2" pad="33"/>
+<connect gate="G$1" pin="PE6" pad="1"/>
+<connect gate="G$1" pin="PF0" pad="41"/>
+<connect gate="G$1" pin="PF1" pad="40"/>
+<connect gate="G$1" pin="PF4" pad="39"/>
+<connect gate="G$1" pin="PF5" pad="38"/>
+<connect gate="G$1" pin="PF6" pad="37"/>
+<connect gate="G$1" pin="PF7" pad="36"/>
+<connect gate="G$1" pin="UCAP" pad="6"/>
+<connect gate="G$1" pin="UGND" pad="5"/>
+<connect gate="G$1" pin="UVCC" pad="2"/>
+<connect gate="G$1" pin="VBUS" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14 34"/>
+<connect gate="G$1" pin="XTAL1" pad="17"/>
+<connect gate="G$1" pin="XTAL2" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MP" value="ATMEGA32U4-AU"/>
+<attribute name="Availability" value="Not in stock"/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="Description" value="
+AVR AVR® ATmega Microcontroller IC 8-Bit 16MHz 32KB (16K x 16) FLASH 44-TQFP (10x10)
+"/>
+<attribute name="Price" value="None"/>
+<attribute name="Package" value="TQFP-44 Microchip"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
