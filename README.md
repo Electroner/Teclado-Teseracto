@@ -4,3 +4,6 @@ Teclado que usa un Arduino Pro Micro como controllador y un decodificador/Demult
 
 Plano Planta, perfil y alzado:
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Carcasa/Vistas.jpg)
+
+Plano Plancha Superior (Plate):
+![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Plancha/Plancha%20imagen.jpg)
