@@ -1,6 +1,6 @@
 # Teclado Personalizado en Español + PCB ![Generic badge](https://img.shields.io/badge/Version-0.1-brightgreen.svg) ![Generic badge](https://img.shields.io/github/last-commit/Electroner/Teclado)
 
-Teclado que usa un Arduino Pro Micro como controllador y un decodificador/Demultiplexor CD74HC154 4-a-16 para conseguir una velocidad de respuesta en COM de ~1330Hz. Pruebas realizadas con el codigo actual.
+Teclado que usa un Arduino Pro Micro como controllador y un decodificador/Demultiplexor CD74HC154 4-a-16, Suficiente para conseguir un tiempo de respuesta igual o superior a los mejores teclados comerciales actuales. Pruebas realizadas con el codigo actual.
 
 Vista Previa de la PCB:
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/PCB.png)
