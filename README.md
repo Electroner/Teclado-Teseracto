@@ -9,7 +9,7 @@ Schematic:
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Schematic.png)
 
 Plano Planta, perfil y alzado:
-![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Carcasa/Vistas.jpg)
+![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Carcasa/Completo.png)
 
 Plano Plancha Superior (Plate):
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Plancha/Plancha.png)
