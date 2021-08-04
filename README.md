@@ -12,4 +12,4 @@ Plano Planta, perfil y alzado:
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Carcasa/Vistas.jpg)
 
 Plano Plancha Superior (Plate):
-![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Plancha/Plancha.jpg)
+![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Plancha/Plancha.png)
