@@ -3,7 +3,10 @@
 Teclado que usa un Atmega32u4 como controllador y un decodificador/Demultiplexor CD74HC154 4-a-16, Suficiente para conseguir un tiempo de respuesta igual o superior a los mejores teclados comerciales actuales. Pruebas realizadas con el codigo actual.
 
 Vista Previa de la PCB:
-![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/PCB.png)
+![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Board.png)
+
+Schematic:
+![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Schematic.png)
 
 Plano Planta, perfil y alzado:
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Carcasa/Vistas.jpg)
