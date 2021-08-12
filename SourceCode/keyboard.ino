@@ -160,6 +160,7 @@ int k = 0;
 
 void setup()
 {
+    Keyboard.begin();
     pinMode(cod0, OUTPUT);
     pinMode(cod1, OUTPUT);
     pinMode(cod2, OUTPUT);
