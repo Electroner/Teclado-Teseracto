@@ -112,17 +112,17 @@ const unsigned int numsAncho = 4;       // 4 al anchura del numero en binario
 const unsigned int AnchuraTeclado = 16; //Tamanio del teclado a lo largo
 const unsigned int AlturaTeclado = 6;   //Tamanio del teclado a lo ancho
 
-const unsigned int cod0 = 10; //Asignacino del pin de salida X0
-const unsigned int cod1 = 16; //Asignacino del pin de salida X1
-const unsigned int cod2 = 14; //Asignacino del pin de salida X2
-const unsigned int cod3 = 15; //Asignacino del pin de salida X3
+const unsigned int cod0 = 12; //Asignacino del pin de salida X0 (PD6)
+const unsigned int cod1 = 4;  //Asignacino del pin de salida X1 (PD4)
+const unsigned int cod2 = 11; //Asignacino del pin de salida X2 (PB7)
+const unsigned int cod3 = 7;  //Asignacino del pin de salida X3 (PE6)
 
-const unsigned int E0 = 4; //Asignacino del pin de Entrada E0
-const unsigned int E1 = 5; //Asignacino del pin de Entrada E1
-const unsigned int E2 = 6; //Asignacino del pin de Entrada E2
-const unsigned int E3 = 7; //Asignacino del pin de Entrada E3
-const unsigned int E4 = 8; //Asignacino del pin de Entrada E4
-const unsigned int E5 = 9; //Asignacino del pin de Entrada E5
+const unsigned int E0 = 13; //Asignacino del pin de Entrada E0 (PC7)
+const unsigned int E1 = 5;  //Asignacino del pin de Entrada E1 (PC6)
+const unsigned int E2 = 10; //Asignacino del pin de Entrada E2 (PB6)
+const unsigned int E3 = 9;  //Asignacino del pin de Entrada E3 (PB5)
+const unsigned int E4 = 8;  //Asignacino del pin de Entrada E4 (PB4)
+const unsigned int E5 = 6;  //Asignacino del pin de Entrada E5 (PD7)
 
 const unsigned int ESwitch[AlturaTeclado] = {E0, E1, E2, E3, E4, E5}; // Array de lectura de Fila
 
@@ -150,7 +150,7 @@ const unsigned char TeclasTeclado[AlturaTeclado][AnchuraTeclado] = {{KEY_ESC,KEY
                                                                     {KEY_LSHIFT,KEY_MENOSMAYOR,KEY_Z,KEY_X,KEY_C,KEY_V,KEY_B,KEY_N,KEY_M,KEY_COMA,KEY_PUNTO,KEY_MENOS,KEY_RSHIFT,KEY_DEL,KEY_FLECHAARRIBA,KEY_NONE},
                                                                     {KEY_LCONTROL,KEY_WINDOWS,KEY_LALT,KEY_DIVISIONPAD,KEY_PORPAD,KEY_MENOSPAD,KEY_ESPACIO,KEY_SUMAPAD,KEY_RCONTROL,KEY_NUMLOCK,KEY_ALTGR,KEY_NONE,KEY_CONTEXTMENU,KEY_FLECHAIZQUIERDA,KEY_FLECHAABAJO,KEY_FLECHADERECHA}};
 
-const unsigned float TiempoDebounce = 5;                            //Tiempo Debounce en milisegundos
+const unsigned long TiempoDebounce = 5;                             //Tiempo Debounce en milisegundos
 bool SwitchEstado[AlturaTeclado][AnchuraTeclado] = {false};         //Estado de la lectura de la fila
 bool SwitchEstadoAntiguo[AlturaTeclado][AnchuraTeclado] = {false};  //Estado Anterior de la Tecla
 unsigned long Debounce[AlturaTeclado][AnchuraTeclado] = {0};        //Tiempo de Bounce de la fila
@@ -160,7 +160,6 @@ int k = 0;
 
 void setup()
 {
-    Keyboard.begin();
     pinMode(cod0, OUTPUT);
     pinMode(cod1, OUTPUT);
     pinMode(cod2, OUTPUT);
@@ -190,12 +189,14 @@ void loop()
                 Debounce[k][i] = millis();
                 SwitchEstadoAntiguo[k][i] = SwitchEstado[k][i];
                 Keyboard.press(TeclasTeclado[k][i]);
+
             }
             else if (!SwitchEstado[k][i] && SwitchEstadoAntiguo[k][i] && (millis() - Debounce[k][i]) > TiempoDebounce)
             {
                 Debounce[k][i] = millis();
                 SwitchEstadoAntiguo[k][i] = SwitchEstado[k][i];
                 Keyboard.release(TeclasTeclado[k][i]);
+
             }
         }
     }
