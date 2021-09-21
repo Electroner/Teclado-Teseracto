@@ -4,6 +4,9 @@ Teclado que usa un Atmega32u4 como controllador y un decodificador/Demultiplexor
 
 Cuerpo y Plate completa de metacrilato atornillada de extremo a extremo.
 
+Componentes de la PCB:
+![PCB](https://github.com/Electroner/Teclado/blob/main/PCB/Components.jpeg)
+
 Vista Previa de la PCB:
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Board.png)
 
