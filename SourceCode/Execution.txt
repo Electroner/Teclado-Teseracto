@@ -1,1 +1,0 @@
-avrdude -Cavrdude.conf -v -patmega32u4 -cavr109 -P/dev/ttyS4 -b57600 -D -Uflash:w:keyboard.hex:i
