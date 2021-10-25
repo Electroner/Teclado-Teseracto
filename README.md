@@ -46,7 +46,7 @@ Y varias paginas para datos concretos como funciones en eagle y ejemplos de otro
 
 ## Software Usado
 
--   [Editor de Layaout Teclado](http://www.keyboard-layout-editor.com/): 
+-   [Editor de Layaout Teclado](http://www.keyboard-layout-editor.com/)
 -   [Autocad](https://www.autodesk.es/products/autocad/overview?term=1-YEAR&tab=subscription)
 -   [FreeCad](https://www.freecadweb.org/)
 -   [Eagle](https://www.autodesk.com/products/eagle/free-download)
