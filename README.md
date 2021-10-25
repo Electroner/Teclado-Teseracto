@@ -12,11 +12,13 @@ El codigo tambien necesita una modificacion ya que la funcion de key-n rollover 
 
 Teclado Finalizado (No leds):
 
-![TECLADO]()
+![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard1.jpg)
+
+![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard2.jpg)
 
 Teclado Finalizado (Leds):
 
-![TECLADO]()
+![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard3.jpg)
 
 Componentes de la PCB:
 
