@@ -1,4 +1,4 @@
-# Teclado Personalizado en Español + PCB ![Generic badge](https://img.shields.io/badge/Version-1.0-brightgreen.svg) ![Generic badge](https://img.shields.io/github/last-commit/Electroner/Teclado)
+# Teclado Personalizado en Español + PCB ![Generic badge](https://img.shields.io/badge/Version-1.2-brightgreen.svg) ![Generic badge](https://img.shields.io/github/last-commit/Electroner/Teclado)
 
 En este github encontraras desde los datasheet de cada parte que he usado hasta los archivos originales del autocad, con todos los archivos descargados deberias ser capaz de poder crear y manufacturar este teclado sin ningun problema.
 
@@ -7,6 +7,8 @@ Este teclado usa un Atmega32u4 como controllador y un decodificador/Demultiplexo
 Para el cuerpo y Plate se ha optado por una fabricacion completa de metacrilato atornillada de extremo a extremo con 28 tornillos que provocaran una sujeccion y una robustez sin igual. El diseño en todo momento de cada parte se ha realizado pensando en su mantenimiento y facilidad de reparacion.
 
 El codigo tambien necesita una modificacion ya que la funcion de key-n rollover esta en maximo de 6 teclas.Esta actualmente no esta implementada en la version publicada.
+
+## Imagenes
 
 Teclado Finalizado (No leds):
 ![TECLADO]()
@@ -25,3 +27,20 @@ Schematic:
 
 Plano Plancha Superior (Plate):
 ![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Plancha/Plancha.png)
+
+## Recursos Usados
+
+-   [Alguna Investigacion y aprendizaje](https://github.com/w4ilun/pocket-keyboard)
+
+Y varias paginas para datos concretos como funciones en eagle y ejemplos de otros teclados.
+
+## Software Usado
+
+-   [Editor de Layaout Teclado](http://www.keyboard-layout-editor.com/): 
+-   [Autocad](https://www.autodesk.es/products/autocad/overview?term=1-YEAR&tab=subscription)
+-   [FreeCad](https://www.freecadweb.org/)
+-   [Eagle](https://www.autodesk.com/products/eagle/free-download)
+-   [Componentes Eagle](https://componentsearchengine.com/)
+-   [Produccion de la PCB](https://jlcpcb.com/)
+-   [Compra de los componentes](https://lcsc.com/)
+-   [Corte de metacrilato (Tienda Local)](https://ecoplasticlaser.com/)
