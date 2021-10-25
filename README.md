@@ -12,6 +12,8 @@ El codigo tambien necesita una modificacion ya que la funcion de key-n rollover 
 
 Teclado Finalizado (No leds):
 
+![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard0.jpg)
+
 ![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard1.jpg)
 
 ![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard2.jpg)
