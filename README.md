@@ -11,22 +11,22 @@ El codigo tambien necesita una modificacion ya que la funcion de key-n rollover 
 ## Imagenes
 
 Teclado Finalizado (No leds):
-![TECLADO]()
+-   ![TECLADO]()
 
 Teclado Finalizado (Leds):
-![TECLADO]()
+-   ![TECLADO]()
 
 Componentes de la PCB:
-![PCB](https://github.com/Electroner/Teclado/blob/main/PCB/Components.jpeg)
+-   ![PCB](https://github.com/Electroner/Teclado/blob/main/PCB/Components.jpeg)
 
 Vista Previa de la PCB:
-![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Board.png)
+-   ![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Board.png)
 
 Schematic:
-![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Schematic.png)
+-   ![PLANO](https://github.com/Electroner/Teclado/blob/main/PCB/Schematic.png)
 
 Plano Plancha Superior (Plate):
-![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Plancha/Plancha.png)
+-   ![PLANO](https://github.com/Electroner/Teclado/blob/main/Planos/Planos%20Plancha/Plancha.png)
 
 ## Recursos Usados
 
