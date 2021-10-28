@@ -42,7 +42,7 @@ Plano Plancha Superior (Plate):
 
 -   [Alguna Investigacion y aprendizaje](https://github.com/w4ilun/pocket-keyboard)
 
-Y varias paginas para datos concretos como funciones en eagle y ejemplos de otros teclados.
+Y varias paginas para datos concretos como funciones en eagle,ayuda con el bootloader y ejemplos de otros teclados.
 
 ## Software Usado
 
