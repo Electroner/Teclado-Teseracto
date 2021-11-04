@@ -1,1 +1,3 @@
+//Linea que se ha de ejecutar en la terminal para subir el codigo al AVR (atmega32u4)
+
 avrdude -Cavrdude.conf -v -patmega32u4 -cavr109 -P/dev/ttyS4 -b57600 -D -Uflash:w:keyboard.hex:i
