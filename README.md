@@ -44,6 +44,9 @@ Plano Plancha Superior (Plate):
 
 Y varias paginas para datos concretos como funciones en eagle,ayuda con el bootloader y ejemplos de otros teclados.
 
+-   [Ayuda con el bootloader](https://forum.arduino.cc/t/burning-bootloader-to-custom-board-atmega32u4/890015)
+-   [Ayuda con el N-key](https://forum.arduino.cc/t/how-to-program-n-key-rollover-atmega32u4/938418/5)
+
 ## Software Usado
 
 -   [Editor de Layaout Teclado](http://www.keyboard-layout-editor.com/)
