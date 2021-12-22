@@ -6,7 +6,7 @@ Este teclado usa un Atmega32u4 como controllador y un decodificador/Demultiplexo
 
 Para el cuerpo y Plate se ha optado por una fabricacion completa de metacrilato atornillada de extremo a extremo con 28 tornillos que provocaran una sujeccion y una robustez sin igual. El diseño en todo momento de cada parte se ha realizado pensando en su mantenimiento y facilidad de reparacion.
 
-El codigo tambien necesita una modificacion ya que la funcion de key-n rollover esta en maximo de 6 teclas.Esta actualmente no esta implementada en la version publicada.
+Se ha actualizado a la version N-keyRollOver con unas modificaciones en las librerias de Keyboard.h y Keyboard.cpp
 
 ## Imagenes
 
