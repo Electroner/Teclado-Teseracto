@@ -2,7 +2,7 @@
 
 En este github encontraras desde los datasheet de cada parte que he usado hasta los archivos originales del autocad, con todos los archivos descargados deberias ser capaz de poder crear y manufacturar este teclado sin ningun problema.
 
-Este teclado usa un Atmega32u4 como controllador y un decodificador/Demultiplexor CD74HC154 4-a-16, Suficiente para conseguir un tiempo de respuesta igual o superior a los mejores teclados comerciales actuales (1060Hz a 2015Hz (con la maxima optimizacion del codigo)).Pruebas realizadas con el codigo actual. Ademas se ha decido "prescindir" de un teclado numerico real, y lo que se ha hecho es conectar los numeros del numpad a  los numeros de la parte superior del teclado, por lo que las teclas tanto del numpad como los de la parte superior son los mismas, al igual con el intro y "." (Ver Esquematica).
+Este teclado usa un Atmega32u4 como controllador y un decodificador/Demultiplexor CD74HC154 4-a-16, Suficiente para conseguir un tiempo de respuesta igual o superior a los mejores teclados comerciales actuales (1060Hz).Pruebas realizadas con el codigo actual. Ademas se ha decido "prescindir" de un teclado numerico real, y lo que se ha hecho es conectar los numeros del numpad a  los numeros de la parte superior del teclado, por lo que las teclas tanto del numpad como los de la parte superior son los mismas, al igual con el intro y "." (Ver Esquematica).
 
 Para el cuerpo y Plate se ha optado por una fabricacion completa de metacrilato atornillada de extremo a extremo con 28 tornillos que provocaran una sujeccion y una robustez sin igual. El diseño en todo momento de cada parte se ha realizado pensando en su mantenimiento y facilidad de reparacion.
 
