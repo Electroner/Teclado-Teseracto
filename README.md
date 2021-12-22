@@ -1,4 +1,4 @@
-# Teclado Personalizado en Español + PCB ![Generic badge](https://img.shields.io/badge/Version-1.2-brightgreen.svg) ![Generic badge](https://img.shields.io/github/last-commit/Electroner/Teclado)
+# Teclado Personalizado en Español + PCB ![Generic badge](https://img.shields.io/badge/Version-1.3-brightgreen.svg) ![Generic badge](https://img.shields.io/github/last-commit/Electroner/Teclado)
 
 En este github encontraras desde los datasheet de cada parte que he usado hasta los archivos originales del autocad, con todos los archivos descargados deberias ser capaz de poder crear y manufacturar este teclado sin ningun problema.
 
