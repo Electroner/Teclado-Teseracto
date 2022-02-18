@@ -22,11 +22,9 @@ Teclado Finalizado (No leds):
 
 ![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard4.jpg)
 
-![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard5.jpg)
-
 Teclado Finalizado (Leds):
 
-![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard3.jpg)
+![TECLADO](https://github.com/Electroner/Teclado/blob/main/Imagenes/Keyboard5.jpg)
 
 Componentes de la PCB:
 
