@@ -61,3 +61,13 @@ Y varias paginas para datos concretos como funciones en eagle,ayuda con el bootl
 -   [Produccion de la PCB](https://jlcpcb.com/)
 -   [Compra de los componentes](https://lcsc.com/)
 -   [Corte de metacrilato (Tienda Local)](https://ecoplasticlaser.com/)
+
+## Instalacion y Compilacion
+
+Recomiendo el Arduino 1.8 (Legacy IDE (1.8.X)) en su version portable. 
+Para poder compilar la placa y añadir los archivos personalizados vamos a seguir estos pasos:
+
+1. En ./hardware/ meteremos la carpeta CLMKeyboard donde estan los archivos personalizados.
+2. Dentro de las librerias (./libraries/Keyboard) vamos a sustituir los archivos keyboard.c y Keyboard.h
+3. Dentro de arduino deberia aparacer nuestra Placa como CLM Keyboard.
+4. Compilamos y subimos.
