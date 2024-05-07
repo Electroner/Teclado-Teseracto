@@ -175,10 +175,10 @@ void loop()
     bool SwicthEstadoRapido;
     for (int i = 0; i < AnchuraTeclado; i++)
     {
-        digitalWrite(cod0, nums0_15[i][0]);
-        digitalWrite(cod1, nums0_15[i][1]);
-        digitalWrite(cod2, nums0_15[i][2]);
-        digitalWrite(cod3, nums0_15[i][3]);
+        digitalWrite(cod0, nums0_15[i][3]);
+        digitalWrite(cod1, nums0_15[i][2]);
+        digitalWrite(cod2, nums0_15[i][1]);
+        digitalWrite(cod3, nums0_15[i][0]);
         for (int k = 0; k < AlturaTeclado; k++)
         {
             SwicthEstadoRapido = !(digitalRead(ESwitch[k]));
